@@ -1,0 +1,6 @@
+export enum ConsultationStatus {
+  SOLICITADA = 'SOLICITADA',
+  AGENDADA = 'AGENDADA',
+  REALIZADA = 'REALIZADA',
+  CANCELADA = 'CANCELADA',
+}
