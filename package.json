@@ -26,17 +26,17 @@
     "reflect-metadata": "^0.2.2",
     "swagger-autogen": "^2.23.7",
     "swagger-ui-express": "^5.0.1",
-    "typeorm": "^0.3.25"
+    "typeorm": "^0.3.25",
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/swagger-ui-express": "^4.1.8"
   },
   "devDependencies": {
     "@jest-mock/express": "^3.0.0",
-    "@types/bcrypt": "^5.0.2",
     "@types/dotenv": "^6.1.1",
-    "@types/express": "^5.0.3",
     "@types/jest": "^30.0.0",
-    "@types/jsonwebtoken": "^9.0.10",
     "@types/supertest": "^6.0.3",
-    "@types/swagger-ui-express": "^4.1.8",
     "cross-env": "^7.0.3",
     "jest": "^30.0.4",
     "supertest": "^7.1.3",
