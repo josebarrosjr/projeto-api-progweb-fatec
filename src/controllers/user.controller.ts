@@ -1,13 +1,12 @@
-// src/controllers/user.controller.ts
 import { Request, Response } from 'express';
 import { userRepository } from '../repositories/user.repository';
 import * as bcrypt from 'bcrypt';
 
 class UserController {
     async create(req: Request, res: Response) {
-        const { nomeCompleto, email, senha, role, cpf, crm, especialidade } = req.body;
+        const { nome, senha, role, cpf, crm } = req.body;
 
-        if (!nomeCompleto || !email || !senha || !role || !cpf) {
+        if (!nome || !senha || !role || !cpf) {
             res.status(400).json({ message: 'Campos obrigatórios faltando.' });
             return;
         }
@@ -15,7 +14,7 @@ class UserController {
         try {
             const hashedPassword = await bcrypt.hash(senha, 10);
             const newUser = await userRepository.save({
-                nomeCompleto, email, senha: hashedPassword, role, cpf, crm, especialidade
+                nome, senha: hashedPassword, role, cpf, crm
             });
             const { senha: _, ...userWithoutPassword } = newUser;
             res.status(201).json(userWithoutPassword);
