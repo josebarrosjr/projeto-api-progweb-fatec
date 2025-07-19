@@ -121,6 +121,31 @@ npm run test
 
 `npm run test`: Roda os testes com Jest.
 
+## 🚀 Deploy em Produção (Render.com)
+
+Esta API está configurada para deploy contínuo na plataforma [Render.com](https://render.com/). Qualquer push para a branch main no GitHub irá acionar um novo build e deploy automático da aplicação.
+
+[![API Online](https://img.shields.io/badge/API-Online-brightgreen)](https://projeto-api-progweb-fatec.onrender.com) 
+
+A infraestrutura na nuvem consiste em dois serviços principais:
+
+1.  *Banco de Dados (PostgreSQL):* Um serviço de banco de dados foi criado para armazenar todos os dados da aplicação de forma persistente.
+2.  *Web Service (Node.js):* O serviço que executa o código da API, conectado diretamente ao repositório do GitHub e configurado com os seguintes parâmetros:
+    * *Runtime*: Node
+    * *Comando de Build*: npm install && npm run build
+    * *Comando de Start*: node dist/app.js
+
+### Variáveis de Ambiente em Produção
+
+As seguintes variáveis de ambiente foram configuradas diretamente no painel do Render para garantir a segurança e o funcionamento correto da aplicação:
+
+| Variável | Descrição |
+| :--- | :--- |
+| DATABASE_URL | URL de conexão interna fornecida pelo serviço de Banco de Dados do Render. |
+| JWT_SECRET | Chave secreta para assinatura e verificação dos tokens JWT. |
+| NODE_ENV | Define o ambiente como production, ativando otimizações e configurações de segurança. |
+| PORT | Porta fornecida pelo Render para expor o serviço (geralmente 10000). |
+
 ## ✒️ Autores
 
 Audrey Francezi Coelho
