@@ -35,7 +35,7 @@
               "schema": {
                 "type": "object",
                 "properties": {
-                  "nome": {
+                  "cpf": {
                     "example": "any"
                   },
                   "senha": {
@@ -80,10 +80,7 @@
               "schema": {
                 "type": "object",
                 "properties": {
-                  "nomeCompleto": {
-                    "example": "any"
-                  },
-                  "email": {
+                  "nome": {
                     "example": "any"
                   },
                   "senha": {
@@ -96,9 +93,6 @@
                     "example": "any"
                   },
                   "crm": {
-                    "example": "any"
-                  },
-                  "especialidade": {
                     "example": "any"
                   }
                 }
@@ -253,9 +247,6 @@
           "201": {
             "description": "Created"
           },
-          "400": {
-            "description": "Bad Request"
-          },
           "401": {
             "description": "Unauthorized"
           },
@@ -264,20 +255,6 @@
           },
           "500": {
             "description": "Internal Server Error"
-          }
-        },
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "dataAgendamento": {
-                    "example": "any"
-                  }
-                }
-              }
-            }
           }
         }
       },
