@@ -123,7 +123,7 @@ npm run test
 
 ## 🚀 Deploy em Produção (Render.com)
 
-Esta API está configurada para deploy contínuo na plataforma [Render.com](https://render.com/). Qualquer push para a branch main no GitHub irá acionar um novo build e deploy automático da aplicação.
+Esta API pode ser configurada para deploy contínuo na plataforma [Render.com](https://render.com/). Qualquer push para a branch main no GitHub irá acionar um novo build e deploy automático da aplicação.
 
 [![API Online](https://img.shields.io/badge/API-Online-brightgreen)](https://projeto-api-progweb-fatec.onrender.com) 
 
