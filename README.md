@@ -1,11 +1,11 @@
 # 🏥 Projeto API
 
-[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)]
+![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 📝 Descrição
 
-API RESTful desenvolvida para o sistema de gerenciamento de clínicas (ClinicaJAM - Nome fictício), responsável por controlar agendamentos, pacientes, médicos e prontuários de anamnese.
+API RESTful desenvolvida para o sistema de gerenciamento de clínicas de saúde ocupacional, responsável por controlar agendamentos, pacientes, médicos e prontuários de anamnese.
 
 Este projeto foi desenvolvido como parte da discipilna de Programaçao Web na Fatec Ribeirão Preto.
 
@@ -54,8 +54,8 @@ Siga os passos abaixo para rodar a aplicação no seu ambiente de desenvolviment
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [URL_DO_SEU_REPOSITORIO]
-    cd [NOME_DA_PASTA_DO_PROJETO]
+    git clone https://github.com/josebarrosjr/projeto-api-progweb-fatec.git
+    cd projeto-api-proggweb-fatec
     ```
 
 2.  **Instale as dependências:**
@@ -124,15 +124,15 @@ npm run test
 ## ✒️ Autores
 
 Audrey Francezi Coelho
-LinkedIn: https://www.linkedin.com/in/audrey-francezi-228094197/
-GitHub: https://github.com/AudFrancezi
+- LinkedIn: https://www.linkedin.com/in/audrey-francezi-228094197/
+- GitHub: https://github.com/AudFrancezi
 
 
 José Pereira Barros Junior
-LinkedIn: https://www.linkedin.com/in/josebarrosjr/
-GitHub: https://github.com/josebarrosjr
+- LinkedIn: https://www.linkedin.com/in/josebarrosjr/
+- GitHub: https://github.com/josebarrosjr
 
 
 Maurício da Silva Alves
-LinkedIn: https://www.linkedin.com/in/maur%C3%ADcio-alves-%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-7320b51a2/
-GitHub: https://github.com/Maurici0A
+- LinkedIn: https://www.linkedin.com/in/maur%C3%ADcio-alves-%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-7320b51a2/
+- GitHub: https://github.com/Maurici0A
